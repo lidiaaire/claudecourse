@@ -1,0 +1,810 @@
+[      62ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     155ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     198ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     391ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_4411d9bd._.js:14107
+[     417ms] Error: ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/contexts/chat-context.tsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://C:\Users\lidia\Desktop\Claude Anthropic Oficial Course\uigen\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:775:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\lidia\Desktop\Claude Anthropic Oficial Course\uigen\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://C:\Users\lidia\Desktop\Claude Anthropic Oficial Course\uigen\node_modules\next\dist\server\dev\next-dev-server.js:721:42)
+    at DevServer.findPageComponents (file://C:\Users\lidia\Desktop\Claude Anthropic Oficial Course\uigen\node_modules\next\dist\server\dev\next-dev-server.js:691:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\lidia\Desktop\Claude Anthropic Oficial Course\uigen\node_modules\next\dist\server\base-server.js:1687:26)
+[     412ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2207
+[     417ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     454ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js:16058
+[     513ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     543ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     583ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[     603ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[     664ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2495
+[   38981ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2495
+[   39890ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/index.js:39:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/portal/index.js:11:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/portal/index.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/route-announcer.js:25:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-announcer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/router.js:41:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/script.js:32:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/client/with-router.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/with-router.js
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/app/errors/stitched-error.js:36:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/app/errors/stitched-error.js
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-error-boundary.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-error-boundary.js
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39891ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:25:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/pages/_error.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/amp-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/amp-context.shared-runtime.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js:37:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/head-manager-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head-manager-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/head.js:27:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js:28:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/router-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/router/adapters.js:33:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router/adapters.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/next/dist/shared/lib/side-effect.js:11:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/side-effect.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/side-effect.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39892ms] [ERROR] ./node_modules/react-dom/cjs/react-dom-client.development.js:21205:15
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/react-dom/client.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/react-dom/cjs/react-dom.development.js:84:17
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/react-dom/cjs/react-dom.development.js
+    ./node_modules/react-dom/index.js
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/client/index.js:37:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/client/route-announcer.js:24:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-announcer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/client/script.js:30:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/client/with-router.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/with-router.js
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:24:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/pages/_error.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/shared/lib/head.js:26:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/shared/lib/router/adapters.js:32:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router/adapters.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39893ms] [ERROR] ./node_modules/next/dist/pages/_app.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   39894ms] [ERROR] ./node_modules/next/dist/pages/_app.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   40009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2495
+[   50887ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3918
+[   51511ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__45f039c3._.js:34
+[   51765ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2836
+[   51770ms] [LOG] [Fast Refresh] done in 11604ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2355
+[   54205ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2495
+[   54221ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2355
+[   54644ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   55426ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <Home>
+            <MainContent user={null}>
+              <FileSystemProvider initialData={undefined}>
+                <ChatProvider projectId={undefined} initialMessages={undefined}>
+                  <div className="h-screen w...">
+                    <ResizablePanelGroup direction="horizontal" className="h-full">
+                      <forwardRef(PanelGroup) data-slot="resizable-..." className="flex w-ful..." direction="horizontal">
+                        <PanelGroup data-slot="resizable-..." className="flex w-ful..." direction="horizontal" ...>
+                          <div
+                            data-slot="resizable-panel-group"
+                            className="flex w-full data-[panel-group-direction=vertical]:flex-col h-full"
+                            id={null}
+                            ref={{current:null}}
+                            style={{display:"flex",flexDirection:"row",height:"100%",overflow:"hidden",width:"100%"}}
+                            data-panel-group=""
+                            data-panel-group-direction="horizontal"
++                           data-panel-group-id="_R_lrlb_"
+-                           data-panel-group-id="_R_4lrlb_"
+                          >
+                            <ResizablePanel defaultSize={35} minSize={25} maxSize={50}>
+                              <forwardRef(Panel) data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50}>
+                                <Panel data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50} ...>
+                                  <div
+                                    data-slot="resizable-panel"
+                                    className=""
++                                   id="_R_6lrlb_"
+-                                   id="_R_slrlb_"
+                                    style={{flexBasis:0,flexGrow:"35.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
++                                   data-panel-group-id="_R_lrlb_"
+-                                   data-panel-group-id="_R_4lrlb_"
+                                    data-panel=""
+                                    data-panel-collapsible={undefined}
++                                   data-panel-id="_R_6lrlb_"
+-                                   data-panel-id="_R_slrlb_"
+                                    data-panel-size="35.0"
+                                  >
+                            <ResizableHandle className="w-[1px] bg...">
+                              <PanelResizeHandle data-slot="resizable-..." className={"focus-vi..."}>
+                                <div
+                                  data-slot="resizable-handle"
+                                  className={"focus-visible:ring-ring relative flex items-center justify-center after..."}
+                                  id={undefined}
+                                  onBlur={function onBlur}
+                                  onFocus={function onFocus}
+                                  ref={{current:null}}
+                                  role="separator"
+                                  style={{touchAction:"none",userSelect:"none"}}
+                                  tabIndex={0}
+                                  data-panel-group-direction="horizontal"
++                                 data-panel-group-id="_R_lrlb_"
+-                                 data-panel-group-id="_R_4lrlb_"
+                                  data-resize-handle=""
+                                  data-resize-handle-active={undefined}
+                                  data-panel-resize-handle-enabled={true}
++                                 data-panel-resize-handle-id="_R_alrlb_"
+-                                 data-panel-resize-handle-id="_R_1clrlb_"
+                                  data-resize-handle-state="inactive"
+                                >
+                            <ResizablePanel defaultSize={65}>
+                              <forwardRef(Panel) data-slot="resizable-..." defaultSize={65}>
+                                <Panel data-slot="resizable-..." defaultSize={65} forwardedRef={null}>
+                                  <div
+                                    data-slot="resizable-panel"
+                                    className=""
++                                   id="_R_elrlb_"
+-                                   id="_R_1slrlb_"
+                                    style={{flexBasis:0,flexGrow:"65.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
++                                   data-panel-group-id="_R_lrlb_"
+-                                   data-panel-group-id="_R_4lrlb_"
+                                    data-panel=""
+                                    data-panel-collapsible={undefined}
++                                   data-panel-id="_R_elrlb_"
+-                                   data-panel-id="_R_1slrlb_"
+                                    data-panel-size="65.0"
+                                  >
+                                    ...
+                                      <div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" ...>
+                                        ...
+                                          <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                            <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                              <Primitive.button type="button" role="tab" aria-selected={true} ...>
+                                                <button
+                                                  type="button"
+                                                  role="tab"
+                                                  aria-selected={true}
++                                                 aria-controls="radix-_R_5ulrlb_-content-preview"
+-                                                 aria-controls="radix-_R_nslrlb_-content-preview"
+                                                  data-state="active"
+                                                  data-disabled={undefined}
+                                                  disabled={false}
++                                                 id="radix-_R_5ulrlb_-trigger-preview"
+-                                                 id="radix-_R_nslrlb_-trigger-preview"
+                                                  data-slot="tabs-trigger"
+                                                  className={"dark:data-[state=active]:text-foreground focus-visible:..."}
+                                                  onMouseDown={function}
+                                                  onKeyDown={function}
+                                                  onFocus={function}
+                                                  tabIndex={-1}
+                                                  data-orientation="horizontal"
+                                                  data-radix-collection-item=""
+                                                  ref={function}
+                                                >
++                                                 Preview
+                                        ...
+                                          <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                            <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                              <Primitive.button type="button" role="tab" aria-selected={false} ...>
+                                                <button
+                                                  type="button"
+                                                  role="tab"
+                                                  aria-selected={false}
++                                                 aria-controls="radix-_R_5ulrlb_-content-code"
+-                                                 aria-controls="radix-_R_nslrlb_-content-code"
+                                                  data-state="inactive"
+                                                  data-disabled={undefined}
+                                                  disabled={false}
++                                                 id="radix-_R_5ulrlb_-trigger-code"
+-                                                 id="radix-_R_nslrlb_-trigger-code"
+                                                  data-slot="tabs-trigger"
+                                                  className={"dark:data-[state=active]:text-foreground focus-visible:..."}
+                                                  onMouseDown={function}
+                                                  onKeyDown={function}
+                                                  onFocus={function}
+                                                  tabIndex={-1}
+                                                  data-orientation="horizontal"
+                                                  data-radix-collection-item=""
+                                                  ref={function}
+                                                >
++                                                 Code
+        ...
+      ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   55470ms] [WARNING] WARNING: Missing resize handle for PanelGroup "_R_lrlb_" @ http://localhost:3000/_next/static/chunks/node_modules_cc4ea3c1._.js:3796
+[   55473ms] [ERROR] No group found for id "_R_lrlb_" @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   55529ms] Error: No group found for id "_R_lrlb_"
+    at assert (http://localhost:3000/_next/static/chunks/node_modules_cc4ea3c1._.js:3420:15)
+    at useWindowSplitterPanelGroupBehavior.useEffect (http://localhost:3000/_next/static/chunks/node_modules_cc4ea3c1._.js:3837:13)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:13122:22)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:886:74)
+    at commitHookEffectListMount (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6640:628)
+    at commitHookPassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6675:60)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7630:33)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7673:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7673:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7673:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7673:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7673:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7633:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7633:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7633:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7629:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7621:106)
+[   55700ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   56359ms] [LOG] [Fast Refresh] done in 765ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   56477ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   56602ms] [LOG] [Fast Refresh] done in 238ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   56709ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   57103ms] [LOG] [Fast Refresh] done in 499ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

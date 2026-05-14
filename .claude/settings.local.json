@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "Bash(npm run *)",
+      "mcp__playwright__browser_wait_for",
+      "PowerShell(npm *)",
+      "PowerShell(npm run *)",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_type",
+      "PowerShell(Invoke-RestMethod -Method POST -Uri \"http://localhost:3000/api/chat\" -ContentType \"application/json\" -Body '{\"files\":{\"/\":{\"type\":\"directory\",\"name\":\"/\",\"path\":\"/\"}},\"messages\":[{\"parts\":[{\"type\":\"text\",\"text\":\"Create a pricing card\"}],\"id\":\"test1\",\"role\":\"user\"}],\"id\":\"test-chat\",\"trigger\":\"submit-message\"}' 2>&1 | Select-Object -First 30)"
+    ]
+  }
+}

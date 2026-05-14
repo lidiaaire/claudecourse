@@ -1,0 +1,352 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button "previous" [disabled] [ref=e8]:
+              - img "previous" [ref=e9]
+            - generic [ref=e11]:
+              - generic [ref=e12]: 1/
+              - text: "3"
+            - button "next" [ref=e13] [cursor=pointer]:
+              - img "next" [ref=e14]
+          - img
+        - generic [ref=e16]:
+          - link "Next.js 15.5.15 (outdated) Turbopack" [ref=e17] [cursor=pointer]:
+            - /url: https://nextjs.org/docs/messages/version-staleness
+            - img [ref=e18]
+            - generic "An outdated version detected (latest is 16.2.4), upgrade is highly recommended!" [ref=e20]: Next.js 15.5.15 (outdated)
+            - generic [ref=e21]: Turbopack
+          - img
+      - generic [ref=e22]:
+        - dialog "Console Error" [ref=e23]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - generic [ref=e30]: Console Error
+                - generic [ref=e31]:
+                  - button "Copy Error Info" [ref=e32] [cursor=pointer]:
+                    - img [ref=e33]
+                  - link "Go to related documentation" [ref=e35] [cursor=pointer]:
+                    - /url: https://nextjs.org/docs/messages/react-hydration-error
+                    - img [ref=e36]
+                  - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e38] [cursor=pointer]:
+                    - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                    - img [ref=e39]
+              - paragraph [ref=e48]: "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:"
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - paragraph [ref=e51]: "- A server/client branch `if (typeof window !== 'undefined')`. - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called. - Date formatting in a user's locale which doesn't match the server. - External changing data without sending a snapshot of it along with the HTML. - Invalid HTML tag nesting. It can also happen if the client has a browser extension installed which messes with the HTML before React loaded."
+                - paragraph [ref=e52]:
+                  - text: "See more info here:"
+                  - link "https://nextjs.org/docs/messages/react-hydration-error" [ref=e53] [cursor=pointer]:
+                    - /url: https://nextjs.org/docs/messages/react-hydration-error
+              - generic [ref=e54]:
+                - button "complete Component Stack" [ref=e55] [cursor=pointer]:
+                  - img [ref=e56]
+                - code [ref=e59]:
+                  - generic [ref=e60]: ...
+                  - generic [ref=e61]: "<RedirectErrorBoundary router={{...}}>"
+                  - generic [ref=e62]: "<InnerLayoutRouter url=\"/\" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>"
+                  - generic [ref=e63]: <SegmentViewNode type="page" pagePath="page.tsx">
+                  - generic [ref=e64]: <SegmentTrieNode>
+                  - generic [ref=e65]: <Home>
+                  - generic [ref=e66]: "<MainContent user={null}>"
+                  - generic [ref=e67]: "<FileSystemProvider initialData={undefined}>"
+                  - generic [ref=e68]: "<ChatProvider projectId={undefined} initialMessages={undefined}>"
+                  - generic [ref=e69]: <div className="h-screen w...">
+                  - generic [ref=e70]: <ResizablePanelGroup direction="horizontal" className="h-full">
+                  - generic [ref=e71]: <forwardRef(PanelGroup) data-slot="resizable-..." className="flex w-ful..." direction="horizontal">
+                  - generic [ref=e72]: <PanelGroup data-slot="resizable-..." className="flex w-ful..." direction="horizontal" ...>
+                  - generic [ref=e73]: <div
+                  - generic [ref=e74]: data-slot="resizable-panel-group"
+                  - generic [ref=e75]: className="flex w-full data-[panel-group-direction=vertical]:flex-col h-full"
+                  - generic [ref=e76]: "id={null}"
+                  - generic [ref=e77]: "ref={{current:null}}"
+                  - generic [ref=e78]: "style={{display:\"flex\",flexDirection:\"row\",height:\"100%\",overflow:\"hidden\",width:\"100%\"}}"
+                  - generic [ref=e79]: data-panel-group=""
+                  - generic [ref=e80]: data-panel-group-direction="horizontal"
+                  - generic [ref=e82]: + data-panel-group-id="_R_lrlb_"
+                  - generic [ref=e84]: "- data-panel-group-id=\"_R_4lrlb_\""
+                  - generic [ref=e85]: ">"
+                  - generic [ref=e86]: "<ResizablePanel defaultSize={35} minSize={25} maxSize={50}>"
+                  - generic [ref=e87]: "<forwardRef(Panel) data-slot=\"resizable-...\" defaultSize={35} minSize={25} maxSize={50}>"
+                  - generic [ref=e88]: "<Panel data-slot=\"resizable-...\" defaultSize={35} minSize={25} maxSize={50} ...>"
+                  - generic [ref=e89]: <div
+                  - generic [ref=e90]: data-slot="resizable-panel"
+                  - generic [ref=e91]: className=""
+                  - generic [ref=e93]: + id="_R_6lrlb_"
+                  - generic [ref=e95]: "- id=\"_R_slrlb_\""
+                  - generic [ref=e96]: "style={{flexBasis:0,flexGrow:\"35.0\",flexShrink:1,overflow:\"hidden\",pointerEvents:undefined}}"
+                  - generic [ref=e98]: + data-panel-group-id="_R_lrlb_"
+                  - generic [ref=e100]: "- data-panel-group-id=\"_R_4lrlb_\""
+                  - generic [ref=e101]: data-panel=""
+                  - generic [ref=e102]: "data-panel-collapsible={undefined}"
+                  - generic [ref=e104]: + data-panel-id="_R_6lrlb_"
+                  - generic [ref=e106]: "- data-panel-id=\"_R_slrlb_\""
+                  - generic [ref=e107]: data-panel-size="35.0"
+                  - generic [ref=e108]: ">"
+                  - generic [ref=e109]: <ResizableHandle className="w-[1px] bg...">
+                  - generic [ref=e110]: "<PanelResizeHandle data-slot=\"resizable-...\" className={\"focus-vi...\"}>"
+                  - generic [ref=e111]: <div
+                  - generic [ref=e112]: data-slot="resizable-handle"
+                  - generic [ref=e113]: "className={\"focus-visible:ring-ring relative flex items-center justify-center after...\"}"
+                  - generic [ref=e114]: "id={undefined}"
+                  - generic [ref=e115]: "onBlur={function onBlur}"
+                  - generic [ref=e116]: "onFocus={function onFocus}"
+                  - generic [ref=e117]: "ref={{current:null}}"
+                  - generic [ref=e118]: role="separator"
+                  - generic [ref=e119]: "style={{touchAction:\"none\",userSelect:\"none\"}}"
+                  - generic [ref=e120]: "tabIndex={0}"
+                  - generic [ref=e121]: data-panel-group-direction="horizontal"
+                  - generic [ref=e123]: + data-panel-group-id="_R_lrlb_"
+                  - generic [ref=e125]: "- data-panel-group-id=\"_R_4lrlb_\""
+                  - generic [ref=e126]: data-resize-handle=""
+                  - generic [ref=e127]: "data-resize-handle-active={undefined}"
+                  - generic [ref=e128]: "data-panel-resize-handle-enabled={true}"
+                  - generic [ref=e130]: + data-panel-resize-handle-id="_R_alrlb_"
+                  - generic [ref=e132]: "- data-panel-resize-handle-id=\"_R_1clrlb_\""
+                  - generic [ref=e133]: data-resize-handle-state="inactive"
+                  - generic [ref=e134]: ">"
+                  - generic [ref=e135]: "<ResizablePanel defaultSize={65}>"
+                  - generic [ref=e136]: "<forwardRef(Panel) data-slot=\"resizable-...\" defaultSize={65}>"
+                  - generic [ref=e137]: "<Panel data-slot=\"resizable-...\" defaultSize={65} forwardedRef={null}>"
+                  - generic [ref=e138]: <div
+                  - generic [ref=e139]: data-slot="resizable-panel"
+                  - generic [ref=e140]: className=""
+                  - generic [ref=e142]: + id="_R_elrlb_"
+                  - generic [ref=e144]: "- id=\"_R_1slrlb_\""
+                  - generic [ref=e145]: "style={{flexBasis:0,flexGrow:\"65.0\",flexShrink:1,overflow:\"hidden\",pointerEvents:undefined}}"
+                  - generic [ref=e147]: + data-panel-group-id="_R_lrlb_"
+                  - generic [ref=e149]: "- data-panel-group-id=\"_R_4lrlb_\""
+                  - generic [ref=e150]: data-panel=""
+                  - generic [ref=e151]: "data-panel-collapsible={undefined}"
+                  - generic [ref=e153]: + data-panel-id="_R_elrlb_"
+                  - generic [ref=e155]: "- data-panel-id=\"_R_1slrlb_\""
+                  - generic [ref=e156]: data-panel-size="65.0"
+                  - generic [ref=e157]: ">"
+                  - generic [ref=e158]: ...
+                  - generic [ref=e159]: <div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" ...>
+                  - generic [ref=e160]: ...
+                  - generic [ref=e161]: "<Primitive.span.Slot tabIndex={-1} data-orientation=\"horizontal\" ...>"
+                  - generic [ref=e162]: "<Primitive.span.SlotClone tabIndex={-1} data-orientation=\"horizontal\" ...>"
+                  - generic [ref=e163]: "<Primitive.button type=\"button\" role=\"tab\" aria-selected={true} ...>"
+                  - generic [ref=e164]: <button
+                  - generic [ref=e165]: type="button"
+                  - generic [ref=e166]: role="tab"
+                  - generic [ref=e167]: "aria-selected={true}"
+                  - generic [ref=e169]: + aria-controls="radix-_R_5ulrlb_-content-preview"
+                  - generic [ref=e171]: "- aria-controls=\"radix-_R_nslrlb_-content-preview\""
+                  - generic [ref=e172]: data-state="active"
+                  - generic [ref=e173]: "data-disabled={undefined}"
+                  - generic [ref=e174]: "disabled={false}"
+                  - generic [ref=e176]: + id="radix-_R_5ulrlb_-trigger-preview"
+                  - generic [ref=e178]: "- id=\"radix-_R_nslrlb_-trigger-preview\""
+                  - generic [ref=e179]: data-slot="tabs-trigger"
+                  - generic [ref=e180]: "className={\"dark:data-[state=active]:text-foreground focus-visible:...\"}"
+                  - generic [ref=e181]: "onMouseDown={function}"
+                  - generic [ref=e182]: "onKeyDown={function}"
+                  - generic [ref=e183]: "onFocus={function}"
+                  - generic [ref=e184]: "tabIndex={-1}"
+                  - generic [ref=e185]: data-orientation="horizontal"
+                  - generic [ref=e186]: data-radix-collection-item=""
+                  - generic [ref=e187]: "ref={function}"
+                  - generic [ref=e188]: ">"
+                  - generic [ref=e190]: + Preview
+                  - generic [ref=e191]: ...
+                  - generic [ref=e192]: "<Primitive.span.Slot tabIndex={-1} data-orientation=\"horizontal\" ...>"
+                  - generic [ref=e193]: "<Primitive.span.SlotClone tabIndex={-1} data-orientation=\"horizontal\" ...>"
+                  - generic [ref=e194]: "<Primitive.button type=\"button\" role=\"tab\" aria-selected={false} ...>"
+                  - generic [ref=e195]: <button
+                  - generic [ref=e196]: type="button"
+                  - generic [ref=e197]: role="tab"
+                  - generic [ref=e198]: "aria-selected={false}"
+                  - generic [ref=e200]: + aria-controls="radix-_R_5ulrlb_-content-code"
+                  - generic [ref=e202]: "- aria-controls=\"radix-_R_nslrlb_-content-code\""
+                  - generic [ref=e203]: data-state="inactive"
+                  - generic [ref=e204]: "data-disabled={undefined}"
+                  - generic [ref=e205]: "disabled={false}"
+                  - generic [ref=e207]: + id="radix-_R_5ulrlb_-trigger-code"
+                  - generic [ref=e209]: "- id=\"radix-_R_nslrlb_-trigger-code\""
+                  - generic [ref=e210]: data-slot="tabs-trigger"
+                  - generic [ref=e211]: "className={\"dark:data-[state=active]:text-foreground focus-visible:...\"}"
+                  - generic [ref=e212]: "onMouseDown={function}"
+                  - generic [ref=e213]: "onKeyDown={function}"
+                  - generic [ref=e214]: "onFocus={function}"
+                  - generic [ref=e215]: "tabIndex={-1}"
+                  - generic [ref=e216]: data-orientation="horizontal"
+                  - generic [ref=e217]: data-radix-collection-item=""
+                  - generic [ref=e218]: "ref={function}"
+                  - generic [ref=e219]: ">"
+                  - generic [ref=e221]: + Code
+                  - generic [ref=e222]: ...
+                  - generic [ref=e223]: ...
+              - generic [ref=e224]:
+                - paragraph [ref=e226]:
+                  - img [ref=e228]
+                  - generic [ref=e231]: src\app\page.tsx (29:10) @ Home
+                  - button "Open in editor" [ref=e232] [cursor=pointer]:
+                    - img [ref=e234]
+                - generic [ref=e237]:
+                  - generic [ref=e238]: 27 |
+                  - generic [ref=e239]: 28 | // For anonymous users, show the main content without a project
+                  - generic [ref=e240]: "> 29 | return <MainContent user={user} />;"
+                  - generic [ref=e241]: "| ^"
+                  - generic [ref=e242]: "30 | }"
+                  - generic [ref=e243]: 31 |
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - paragraph [ref=e246]:
+                    - text: Call Stack
+                    - generic [ref=e247]: "22"
+                  - button "Show 1 ignore-listed frame(s)" [ref=e248] [cursor=pointer]:
+                    - text: Show 1 ignore-listed frame(s)
+                    - img [ref=e249]
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - text: createConsoleError
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e253] [cursor=pointer]:
+                      - img [ref=e254]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_b0daae9a._.js (1605:71)
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - text: handleConsoleError
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e258] [cursor=pointer]:
+                      - img [ref=e259]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_b0daae9a._.js (2203:54)
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - text: console.error
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e263] [cursor=pointer]:
+                      - img [ref=e264]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_b0daae9a._.js (2354:57)
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - text: <unknown>
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e268] [cursor=pointer]:
+                      - img [ref=e269]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (3013:25)
+                - generic [ref=e271]:
+                  - generic [ref=e272]:
+                    - text: runWithFiberInDEV
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e273] [cursor=pointer]:
+                      - img [ref=e274]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (886:74)
+                - generic [ref=e276]:
+                  - generic [ref=e277]:
+                    - text: emitPendingHydrationWarnings
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e278] [cursor=pointer]:
+                      - img [ref=e279]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (3012:13)
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - text: completeWork
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e283] [cursor=pointer]:
+                      - img [ref=e284]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (6296:102)
+                - generic [ref=e286]:
+                  - generic [ref=e287]:
+                    - text: runWithFiberInDEV
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e288] [cursor=pointer]:
+                      - img [ref=e289]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (886:131)
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - text: completeUnitOfWork
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e293] [cursor=pointer]:
+                      - img [ref=e294]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8363:23)
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - text: performUnitOfWork
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e298] [cursor=pointer]:
+                      - img [ref=e299]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8300:28)
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - text: workLoopConcurrentByScheduler
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e303] [cursor=pointer]:
+                      - img [ref=e304]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8294:58)
+                - generic [ref=e306]:
+                  - generic [ref=e307]:
+                    - text: renderRootConcurrent
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e308] [cursor=pointer]:
+                      - img [ref=e309]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8276:71)
+                - generic [ref=e311]:
+                  - generic [ref=e312]:
+                    - text: performWorkOnRoot
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e313] [cursor=pointer]:
+                      - img [ref=e314]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (7908:176)
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - text: performWorkOnRootViaSchedulerTask
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e318] [cursor=pointer]:
+                      - img [ref=e319]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8882:9)
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - text: MessagePort.performWorkUntilDeadline
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e323] [cursor=pointer]:
+                      - img [ref=e324]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js (2601:64)
+                - generic [ref=e326]:
+                  - generic [ref=e327]: div
+                  - text: <anonymous>
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - text: PanelWithForwardedRef
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e330] [cursor=pointer]:
+                      - img [ref=e331]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_cc4ea3c1._.js (2921:191)
+                - generic [ref=e333]:
+                  - generic [ref=e334]:
+                    - text: forwardRef(Panel)
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e335] [cursor=pointer]:
+                      - img [ref=e336]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/node_modules_cc4ea3c1._.js (2938:385)
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - text: ResizablePanel
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e340] [cursor=pointer]:
+                      - img [ref=e341]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/src_95ff411d._.js (58:214)
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - text: MainContent
+                    - button "Sourcemapping failed. Click to log cause of error." [ref=e345] [cursor=pointer]:
+                      - img [ref=e346]
+                  - text: file:///C:/Users/lidia/Desktop/Claude%20Anthropic%20Oficial%20Course/uigen/.next/static/chunks/src_95ff411d._.js (4210:227)
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - text: Home
+                    - button "Open Home in editor" [ref=e350] [cursor=pointer]:
+                      - img [ref=e351]
+                  - text: src\app\page.tsx (29:10)
+          - generic [ref=e353]:
+            - generic [ref=e354]: "1"
+            - generic [ref=e355]: "2"
+        - contentinfo [ref=e356]:
+          - region "Error feedback" [ref=e357]:
+            - paragraph [ref=e358]:
+              - link "Was this helpful?" [ref=e359] [cursor=pointer]:
+                - /url: https://nextjs.org/telemetry#error-feedback
+            - button "Mark as helpful" [ref=e360] [cursor=pointer]:
+              - img [ref=e361]
+            - button "Mark as not helpful" [ref=e364] [cursor=pointer]:
+              - img [ref=e365]
+    - generic [ref=e372] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e373]:
+        - img [ref=e375]
+        - generic [ref=e377]:
+          - generic [ref=e378]: "2"
+          - generic [ref=e379]: "3"
+        - generic [ref=e380]:
+          - text: Issue
+          - generic [ref=e381]: s
+      - button "Collapse issues badge" [ref=e382]:
+        - img [ref=e383]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e387]'
